@@ -1,0 +1,185 @@
+body {
+  font-family: sans-serif;
+}
+
+/*.chart {*/
+  /*!* padding: 3rem; *!*/
+  /*box-sizing: border-box;*/
+/*}*/
+
+.charts-legend-date {
+    text-align: center;
+}
+
+.charts-legend-values > div {
+    padding: 0 5px;
+}
+
+.x-axis-line {
+  stroke: #a5a5a5;
+}
+
+.y-grid-line {
+  stroke: #a5a5a5;
+}
+
+.dn {
+    display: none;
+}
+
+.chart {
+  fill: none;
+}
+
+.charts-wrapper h2 {
+    padding: 1rem;
+}
+
+.charts-wrapper {
+  position: relative;
+}
+
+/*.charts-wrapper > * {*/
+    /*display: block;*/
+/*}*/
+
+.charts-wrapper.dark {
+    background-color: #383838;
+    color: #ffffff;
+}
+
+.charts-legend {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  border: solid #808080 1px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+
+.dark .charts-legend {
+    background-color: #2d2d2d;
+}
+
+.charts-legend-values {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.charts-legend-name {
+  font-weight: unset;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.charts-dots {
+  fill: #ffffff;
+}
+
+.under-layer {
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.x-grid-line {
+  stroke: #a5a5a5;
+}
+
+.brush-rects-bound {
+   stroke: #a5a5a5;
+   stroke-width: 1;
+   fill-opacity: 0;
+ }
+
+.brush-rects-bound:hover
+{
+  cursor: grab;
+}
+
+.brush-rects-bound:active
+{
+  cursor: grabbing;
+}
+
+.brush-rects-left,
+.brush-rects-right{
+  fill-opacity: 0.2;
+}
+
+.brush-lines-left,
+.brush-lines-right {
+  stroke: #a5a5a5;
+  stroke-width: 16;
+}
+
+.brush-lines-left:hover,
+.brush-lines-right:hover {
+  cursor: col-resize;
+}
+
+/*checkboxes*/
+.checkbox-container {
+    display: flex;
+}
+
+.switcher {
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+    color: #8888ff;
+    cursor: pointer;
+}
+
+.checkbox-container div {
+    border: 1px solid #a5a5a5;
+    border-radius: 30px;
+    margin: 0 5px;
+    padding: 0 10px 0 0
+}
+
+.checkbox-container label {
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+    width: 23%;
+    color: #38588a;
+
+}
+
+.checkbox-container label > span {
+    display: block;
+    margin: 0 0;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.checkbox-container input[type="checkbox"] {
+    display: none;
+}
+
+.checkmark-check {
+    fill: none;
+    stroke: #ffffff;
+}
+
+.dark .checkmark-check {
+    stroke: #383838;
+}
+
+.checkmark {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 5;
+    stroke: #000;
+    cursor: pointer;
+}
+
